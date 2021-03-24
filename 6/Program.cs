@@ -33,8 +33,8 @@ namespace _6
         }
         static void Task2()
         {
-            Console.WriteLine("Введите длину массива: ");
             Console.WriteLine("Задание №2");
+            Console.WriteLine("Введите длину массива: ");
             double[] arr = new double[int.Parse(Console.ReadLine())];
             Random rnd = new Random();
             Console.WriteLine("Массив случайных чисел: ");
@@ -117,7 +117,7 @@ namespace _6
                 Console.WriteLine(); 
             }
  
-            Console.WriteLine("\n");
+            Console.WriteLine();
  
             int count = 0;
             for (int i = 0; i < m; i++)
