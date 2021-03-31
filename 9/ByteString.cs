@@ -81,6 +81,21 @@ namespace _9
                 this.text = (new ByteString(this.TEXT) + new ByteString("1")).Text;
             }
         }
+
+        public override bool Equals(object obj)
+        {
+            return obj is ByteString @string &&
+                   text == @string.text &&
+                   TEXT == @string.TEXT &&
+                   znak == @string.znak &&
+                   Text == @string.Text;
+        }
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(text, TEXT, znak, Text);
+        }
+
         ~ByteString()
         {
             System.Console.WriteLine("Class was destroyed");
