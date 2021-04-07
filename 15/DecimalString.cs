@@ -21,7 +21,6 @@ namespace _15
                 }
             }
         }
-
         public static int operator -(DecimalString ds, DecimalString ds2)
         {
             return Convert.ToInt32(ds.m_string) - Convert.ToInt32(ds2.m_string);

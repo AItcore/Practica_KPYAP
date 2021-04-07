@@ -11,13 +11,11 @@ namespace _15
             m_string = "";
             stringLength = m_string.Length;
         }
-
         public MyString(string str)
         {
             m_string = str;
             stringLength = m_string.Length;
         }
-
         public MyString(char ch)
         {
             m_string = Convert.ToString(ch);
