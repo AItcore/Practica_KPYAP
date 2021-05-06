@@ -52,6 +52,7 @@ namespace _15
             {
                 System.Console.WriteLine("Таких самолётов нету");
             }
+            Console.ReadKey();
         }
     }
 }

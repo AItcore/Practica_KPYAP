@@ -30,6 +30,7 @@ namespace _10
             {
                 System.Console.WriteLine("Символа нету в строке");
             }
+            Console.ReadKey();
         }
     }
 }

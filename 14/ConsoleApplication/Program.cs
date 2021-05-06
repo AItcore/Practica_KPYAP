@@ -67,6 +67,7 @@ namespace ConsoleApplication
                 Console.WriteLine();
             }
             System.Console.WriteLine();
+            Console.ReadKey();
         }
     }
 }

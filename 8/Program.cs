@@ -97,31 +97,7 @@ namespace _8
                 }
             }
             OptimalProfessor(professors);
-            // string path = "/home/kirill/coding/python/Practica_KPYAP/8/";
-            // StreamReader reader = new StreamReader(path + "input.txt");
-            // StreamWriter writer = new StreamWriter(path + "output.txt");
-            // Product[] products = new Product[3];
-            // int i = 0;
-            // while (!(reader.Peek() == -1))
-            // {
-            //     products[i].type = reader.ReadLine();
-            //     products[i].price = int.Parse(reader.ReadLine());
-            //     products[i].variety = reader.ReadLine();
-            //     products[i].count = int.Parse(reader.ReadLine());
-            //     i++;
-            // }
-            // Array.Sort(products);
-            // System.Console.WriteLine("Введите максимальное количество продуктов");
-            // int a = int.Parse(Console.ReadLine());
-            // for (i = 0; i < products.Length; i++)
-            // {
-            //     if (products[i].count < a )
-            //     {
-            //         writer.WriteLine(products[i].ToString());
-            //     }
-            // }
-            // writer.Close();
-            // reader.Close();
+            Console.ReadKey();
         }
     }
 }

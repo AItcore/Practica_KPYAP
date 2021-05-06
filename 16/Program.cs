@@ -12,6 +12,7 @@ namespace _16
             string patern = @"(\w+)(\s)(\w+)";
             text = Regex.Replace(text, patern ,@"$1, $3");
             System.Console.WriteLine(text);
+            Console.ReadKey();
         }
     }
 }

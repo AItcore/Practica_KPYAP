@@ -50,6 +50,7 @@ namespace _9
             trigger.input(1);
             trigger.input(0);
             trigger.input(1);
+            Console.ReadKey();
         }
     }
 }

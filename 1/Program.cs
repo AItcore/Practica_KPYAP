@@ -80,6 +80,7 @@ namespace _1
             N2();
             System.Console.WriteLine("Задание №3");
             N3();
+            Console.ReadKey();
         }
     }
 }

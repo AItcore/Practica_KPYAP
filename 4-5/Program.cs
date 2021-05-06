@@ -71,6 +71,7 @@ namespace _4
             {
                 System.Console.WriteLine("Первый массив не равен Третьему");
             }
+            Console.ReadKey();
         }
     }
 }

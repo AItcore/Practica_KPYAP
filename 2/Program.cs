@@ -38,6 +38,7 @@ namespace _2
             {
                 Console.WriteLine($"Результат при i = {Math.Round(i, 1)}: {Integral(n, a, i)}");
             }
+            Console.ReadKey();
         }
     }
 }

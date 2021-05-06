@@ -141,6 +141,7 @@ namespace _12
             tree.ShowTree();
             System.Console.WriteLine();
             tree.FindElem(10);
+            Console.ReadKey();
         }
     }
 }

@@ -80,6 +80,7 @@ namespace _13
                 }
             }
             sw.Close();
+            Console.ReadKey();
         }
     }
 }

@@ -39,6 +39,7 @@ namespace _7
                 }
             }
             System.Console.WriteLine($"Порядковый номер слова с минимальной длиной {min+1}\nСимволов: {text[min].Length}\nСлово: {text[min]}");
+            Console.ReadKey();
         }
     }
 }

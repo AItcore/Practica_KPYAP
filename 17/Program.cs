@@ -1,12 +1,15 @@
 ﻿using System;
-
+using SpaceVIL;
+using SpaceVIL.Common;
 namespace _17
 {
-    class Program
+  class Program
+  {
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+      CommonService.InitSpaceVILComponents();
+      MainWindow mw = new MainWindow();
+      mw.Show();
     }
-}
+  }
+} 

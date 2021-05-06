@@ -27,7 +27,7 @@ namespace _11
             th1.Join();
             th2.Join();
             th3.Join();
-
+            Console.ReadKey();
         }
         static void startThread()
         {
